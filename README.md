@@ -17,15 +17,16 @@ https://support.f5.com/csp/article/K52145254?sf235665517=1
   * $ pip3 install -r requirements
 
 ## Options
-
-  -h, --help            show this help message and exit
-  -H HOST, --host HOST  IP or Hostname of target
-  -p PORT, --port PORT  Port of target. Default=443
-  -hl HOSTLIST, --hostlist HOSTLIST
-                        Use a hosts list e.g. ./hosts.txt
-  -s, --shodan          Search for hosts in Shodan (Needs api key)
-  -e, --exploit         exploit target
-  -c COMMAND, --command COMMAND
-                        command to execute
-  -lf LFI, --lfi LFI    File to read using LFI Vulnerability
-  --version             show program's version number and exit
+```
+-h, --help            show this help message and exit
+-H HOST, --host HOST  IP or Hostname of target
+-p PORT, --port PORT  Port of target. Default=443
+-hl HOSTLIST, --hostlist HOSTLIST
+                      Use a hosts list e.g. ./hosts.txt
+-s, --shodan          Search for hosts in Shodan (Needs api key)
+-e, --exploit         exploit target
+-c COMMAND, --command COMMAND
+                      command to execute
+-lf LFI, --lfi LFI    File to read using LFI Vulnerability
+--version             show program's version number and exit
+```
