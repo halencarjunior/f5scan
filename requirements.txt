@@ -1,0 +1,4 @@
+shodan
+colorama
+urlopen
+pyOpenSSL
